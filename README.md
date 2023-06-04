@@ -8,7 +8,7 @@ Demand Center, these information should be given to the app in the following for
   and each list represent a Supply Center, the goods' limits should be separetaed with "," (comma) and the lists (Which represent Supply Centers) should be separated with ";" (semicolon).
   for the Demand Limits the values should be added like the Supply Limits but the only defferance is that each list represent a Demand Center.
   The last values that should be added are Transportation Costs, which should be added in the following format: these values are nestes lists which the numbers represent the Transportation
-  Cost of each Type of Good form each Demand Center index wise (the index of the numbers represent the costs and the index of the nested list (which itself is inside another list) represent the Demand Center
+  Cost of each Type of Good from each Demand Center index wise (the index of the numbers represent the costs and the index of the nested list (which itself is inside another list) represent the Demand Center
   which is added in here we separate the Demand Centers (lists that represent them) with ":" (colon) and for the Supply Centers we separate them with ";" (semicolon).
 There is a button defined in the app that imports an example for better understand how you should enter your values, in which there are 2 Supply Centers, 2 Demand Centers and 2 Types of Goods
 lets explain one instance of each imported values:<p/>
