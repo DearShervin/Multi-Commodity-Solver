@@ -1,5 +1,6 @@
 # 🐍 Multi-Commodity-Solver-with-Kivy-UI
-<p>The Multi-Commodity Transportation Problem Solver with Kivy UI is designed to solve Multi-commodity transportation problems given the following values: number of Supply Centers, number of Demand Centers, number of Types of Goods,
+###
+<p align="left">The Multi-Commodity Transportation Problem Solver with Kivy UI is designed to solve Multi-commodity transportation problems given the following values: number of Supply Centers, number of Demand Centers, number of Types of Goods,
 Supply Center's Limits for each Types of Goods, Demand Center's demans for each Types of Goods and the Transportation Cost of each Type of Good from each Supply Center to each
 Demand Center, these information should be given to the app in the following format:
   The first three values are basicly intergers that represent the number of each Supply Center, Demand Center and Types of Goods.
@@ -16,4 +17,4 @@ lets explain one instance of each imported values:<p/>
   - 10 (first) inside "15, 10; 15, 10" means that the Demand Center number one demands 10 of good type 2, and so on.**
   - 4 (first) inside "2,3:3,2; 4,1:1,4" means that the cost of transporting Good Type 1 from Supply Center number 2 to Demand Center number 1 is $4, and so on.**
 ###
-<p>For the Solver itself I used Scipy.linprog library, the documentations for it is available <a href="https://docs.scipy.org/doc/scipy/reference/optimize.linprog-highs.html">here.<a/><p/>
+<p align="left">For the Solver itself I used Scipy.linprog library, the documentations for it is available <a href="https://docs.scipy.org/doc/scipy/reference/optimize.linprog-highs.html">here.<a/><p/>
