@@ -13,9 +13,8 @@ Demand Center, these information should be given to the app in the following for
 There is a button defined in the app that imports an example for better understand how you should enter your values, in which there are 2 Supply Centers, 2 Demand Centers and 2 Types of Goods
 lets explain one instance of each imported values:<p/>
 
-Markup :
-        - for example 10 inside "10, 15; 20, 5" means that the Supply Center number one has a limit of 10 for the good number 1 and also 5 means that the Supply Center number 2 has limit of 5 for good number 2.
-        - 10 (first) inside "15, 10; 15, 10" means that the Demand Center number one demands 10 of good type 2, and so on.
-        - 4 (first) inside "2,3:3,2; 4,1:1,4" means that the cost of transporting Good Type 1 from Supply Center number 2 to Demand Center number 1 is $4, and so on.
+*for example 10 inside "10, 15; 20, 5" means that the Supply Center number one has a limit of 10 for the good number 1 and also 5 means that the Supply Center number 2 has limit of 5 for good number 2.
+*10 (first) inside "15, 10; 15, 10" means that the Demand Center number one demands 10 of good type 2, and so on.
+*4 (first) inside "2,3:3,2; 4,1:1,4" means that the cost of transporting Good Type 1 from Supply Center number 2 to Demand Center number 1 is $4, and so on.
 
 <p align="left">For the Solver itself I used Scipy.linprog library, the documentations for it is available <a href="https://docs.scipy.org/doc/scipy/reference/optimize.linprog-highs.html">here.<a/><p/>
