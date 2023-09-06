@@ -2,15 +2,15 @@
 ###
 
 <p align="left">The Multi-Commodity Transportation Problem Solver with Kivy UI is designed to solve Multi-commodity transportation problems given the following values: number of Supply Centers, number of Demand Centers, number of Types of Goods (products),
-Supply Center's Limits for each Types of Goods, Demand Center's demans for each Types of Goods and the Transportation Cost of each Type of Good from each Supply Center to each
+Supply Center's Limits for each Types of Goods, Demand Center's demands for each Types of Goods and the Transportation Cost of each Type of Good from each Supply Center to each
 Demand Center, these information should be given to the app in the following format:<br>
 
-The first three values are basicly intergers that represent the number of each Supply Center, Demand Center and Types of Goods.<br>
+The first three values are integers that represent the number of each Supply Center, Demand Center and Types of Goods.<br>
   
 For the last three values the first one is the Supply Center's Limits for each Type of Goods which is given in multiple lists each in which we include the limit for goods index wise
-and each list represent a Supply Center, the goods' limits should be separetaed with "," (comma) and the lists (Which represent Supply Centers) should be separated with ";" (semicolon).<br>
+and each list represent a Supply Center, the goods' limits should be separated with "," (comma) and the lists (Which represent Supply Centers) should be separated with ";" (semicolon).<br>
 
-For the Demand Limits the values should be added like the Supply Limits but the only defferance is that each list represent a Demand Center.<br>
+For the Demand Limits the values should be added like the Supply Limits but the only difference is that each list represent a Demand Center.<br>
 
 The last values that should be added are Transportation Costs, which should be added in the following format:<br>
 
