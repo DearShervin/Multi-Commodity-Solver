@@ -2,7 +2,7 @@
 ###
 
 <p align="left">The Multi-Commodity Transportation Problem Solver with Kivy UI is designed to solve Multi-commodity transportation problems given the following values: number of Supply Centers, number of Demand Centers, number of Types of Goods (products),
-Supply Center's Limits for each Types of Goods, Demand Center's demands for each Types of Goods and the Transportation Cost of each Type of Good from each Supply Center to each
+Supply Centers' Limits for each Types of Goods, Demand Centers' demands for each Types of Goods and the Transportation Cost of each Type of Good from each Supply Center to each
 Demand Center, these information should be given to the app in the following format:<br>
 
 The first three values are integers that represent the number of each Supply Center, Demand Center and Types of Goods.<br>
